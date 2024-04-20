@@ -1,0 +1,37 @@
+.box{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 200px; 
+    width: 100px;
+    height: 100px;
+
+    animation-name: moving-cube;
+    animation-duration: 5000ms;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes moving-cube{
+
+   0%, 100%{
+    background-color: red;
+   }
+
+   25%{
+    background-color: blue;
+    margin-top: 300px;
+    margin-left: 200px;
+   }
+
+   50%{
+    background-color: green;
+    margin-top: 300px;
+    margin-left: 400px;
+   }
+
+   75%{
+    background-color: yellow;
+    margin-top: 200px;
+    margin-left: 400px;
+   }
+}
